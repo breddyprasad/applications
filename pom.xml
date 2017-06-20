@@ -19,14 +19,14 @@
 		<repository>
 			<id>applications</id>
 			<name>applications</name>
-			<url>http://localhost:8081/nexus/content/repositories/releases</url>
+			<url>http://localhost:8080/nexus/content/repositories/releases</url>
 		</repository>
 
 		<!-- Publish the versioned releases here -->
 		<snapshotRepository>
 			<id>applications</id>
 			<name>applications</name>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+			<url>http://localhost:8080/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
